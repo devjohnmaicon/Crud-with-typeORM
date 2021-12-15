@@ -1,6 +1,6 @@
 import { getRepository } from "typeorm";
-import { Category } from "../entities/Category";
-import { Video } from "../entities/Video";
+import { Category } from "../../entities/Category";
+import { Video } from "../../entities/Video";
 
 type VideoRequest = {
   name: string;
